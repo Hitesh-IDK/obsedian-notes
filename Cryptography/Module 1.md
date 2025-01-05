@@ -34,3 +34,21 @@ Characteristics or Characterization of cryptographic systems,
 - The number of keys used - (Symmetric or single key or secret key and Asymmetric or two-key or public key)
 - The way in which plain text is processed - (Block cipher & Stream cipher)
 
+#### Caesar Cipher - Substitution Technique
+
+- By Julius Caesar
+- Replace each letter with letter standing three places further down
+- Alphabets are wrapped, after Z is A
+- C = E(3, p) = (p + 3) mod 26
+- General formula - C = E(k, p)
+
+Brute Force cryptoanalysis of Caesar Cipher
+![[Pasted image 20250105193739.png]]
+
+Why Brute force is easy to apply on Caesar Cipher
+- The language of plain text is known to everyone
+- There are only 25 possible keys to try
+- The encryption and decryption algorithms are widely known
+
+#### Monoalphabetic Cipher - Substitution Technique
+
