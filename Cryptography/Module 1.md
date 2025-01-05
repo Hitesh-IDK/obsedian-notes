@@ -90,4 +90,10 @@ Two fundamental problems with One time pad,
 - Problem of key distribution and protection
 
 
+#### Transposition Techniques
+
+- Rail fence technique
+- Rectangle Row
+- Double transposition using rectangle row
+
 #### 
