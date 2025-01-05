@@ -52,3 +52,29 @@ Why Brute force is easy to apply on Caesar Cipher
 
 #### Monoalphabetic Cipher - Substitution Technique
 
+- Permutation of 26, 26! number of possibilities
+- 10 times more combinations than DES
+- Removes the easiness of Brute Force 
+
+Ways to Brute Force
+- Relative frequency of english letters can be compared
+- More probable with longer messages
+- Other regularities like look for known words present in the text
+- Looking for repeating sequence of cipher texts
+- Relative frequency of two letter combinations - th is most common, look for most common terms in cipher and replace them as th
+
+#### PlayFair Cipher
+
+- Treats multiple letters of a text as single units for translation
+- Uses 5x5 matrix constructed using a keyword, starting with keyword, rest of the non repeating letters fills the matrix, from top to bottom, left to right
+![[Pasted image 20250105210521.png]]
+
+Rules of encryption
+- Two letter pairs are constructed
+- Repeating letters are separated using a filler letter like x, ex LLO becomes Lx LO
+- Two letters that appear in the same row is replaced with letters to the right, circularly wrapping
+- Two letters that appear in the same column is replaced with letters to the top, circularly wrapping
+- Otherwise, the plaintext letter in a pair is replaced by letters in its own row and column occupied by the other letter
+
+#### Hill Cipher
+
