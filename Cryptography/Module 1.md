@@ -76,5 +76,18 @@ Rules of encryption
 - Two letters that appear in the same column is replaced with letters to the top, circularly wrapping
 - Otherwise, the plaintext letter in a pair is replaced by letters in its own row and column occupied by the other letter
 
-#### Hill Cipher
+#### Hill Cipher - (SKIPPED FOR NOW)
 
+#### One Time Pad
+
+- Random Key used is as long as the message to be sent, to avoid repeating
+- One time use key, discarded after a single encryption and decryption
+- A single cipher text can have multiple plausible plain texts based on the key used
+- Security of the cipher text completely depends on the randomness of the key used
+
+Two fundamental problems with One time pad,
+- Practical problem of generating large quantities of random keys
+- Problem of key distribution and protection
+
+
+#### 
